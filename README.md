@@ -17,7 +17,7 @@ http://143.244.187.44:8080/swagger-ui.html
 # Estructura de archivos
 
 ```
-spring-boot-api-notas/
+sb-api-notas/
  │
  ├── src/main/java/
  │   └── appnotas
@@ -179,13 +179,13 @@ docker run -p 8080:8080 henrryvalen/api-notas:1.0.0
 2. Bifurca este repositorio y clonalo
   
 ```
-$ git clone https://github.com/henrryvalen/spring-boot-api-notas
+$ git clone https://github.com/henrryvalen/sb-api-notas
 ```
 
 3. Navegar a la carpeta
 
 ```
-$ cd spring-boot-api-notas
+$ cd sb-api-notas
 ```
 
 4. Instalar dependencias
