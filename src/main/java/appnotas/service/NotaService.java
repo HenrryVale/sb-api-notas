@@ -27,6 +27,7 @@ public class NotaService {
      */
     public ResponseDTO<Nota> crearNota(Nota nota) {
         String mensajesConcatenados = "Registrado correctamente!";
+        nota.setUsuarioId(1);
         Nota nuevaNota = null;
         try {
             nuevaNota = notaRepository.save(nota);
